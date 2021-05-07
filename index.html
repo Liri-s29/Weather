@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div>
+        <h1>Weather App</h1>
+        <form action="/" method="POST">
+            <label for="cityInput">Name of City : </label>
+            <input type="text" name="cityName" id="cityInput"><br><br>
+            <label for="unit">Select the Unit : </label>
+            <select name="unit" id="unit">
+                <option value="metric">Celcius</option>
+                <option value="imperial">Fahrenheit</option>
+                <option value="">Kelvin</option>
+            </select><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
